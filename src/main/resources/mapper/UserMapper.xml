@@ -5,6 +5,6 @@
 <mapper namespace="com.lx.ruhai.mapper.UserMapper">
 
     <select id="queryUserByName" parameterType="string" resultType="com.lx.ruhai.pojo.User">
-        select * from mybatis.user where name = #{name}
+        select * from ruhai.user where name = #{name}
     </select>
 </mapper>
